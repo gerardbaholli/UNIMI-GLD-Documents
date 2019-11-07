@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.8.8)  4 NOV 2019 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.9)  7 NOV 2019 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2018-04-01> patch level 5
-(c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(c:/texlive/2018/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -22,21 +22,21 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -52,46 +52,47 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(c:/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTleft=\skip43
 \LTright=\skip44
 \LTpre=\skip45
 \LTpost=\skip46
 \LTchunksize=\count91
 \LTcapwidth=\dimen113
-\LT@head=\box26
-\LT@firsthead=\box27
-\LT@foot=\box28
-\LT@lastfoot=\box29
+\LT@head=\box27
+\LT@firsthead=\box28
+\LT@foot=\box29
+\LT@lastfoot=\box30
 \LT@cols=\count92
 \LT@rows=\count93
 \c@LT@tables=\count94
 \c@LT@chunks=\count95
 \LT@p@ftn=\toks16
 ) (./main.aux
-(./frontespizio.aux) (./revision_history.aux) (./section1.aux) (./section2.aux)
-(./section3.aux))
+(./frontespizio.aux) (./revision_history.aux) (./high_concept.aux)
+(./settings_fundamental_concepts.aux) (./synopsis.aux) (./themes.aux)
+(./characters.aux) (./world_diagram.aux) (./goals_outline.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -141,11 +142,11 @@ LaTeX Font Info:    ... okay on input line 9.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen114
-\scratchbox=\box30
+\scratchbox=\box31
 \nofMPsegments=\count97
 \nofMParguments=\count98
 \everyMPshowfont=\toks17
@@ -154,41 +155,36 @@ LaTeX Font Info:    ... okay on input line 9.
 \MPnumerator=\count100
 \makeMPintoPDFobject=\count101
 \everyMPtoPDFconversion=\toks18
-) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(c:/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(c:/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+))))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -202,7 +198,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -248,13 +244,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 ) [1
 
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/logos/
-unimi_logo.png> <./images/logos/pong_logo.png> <./images/logos/demonparty_logo.
-jpg>]
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/logos/unimi_logo.png> <./images/logos/pong_logo.png> <./images/logos/demonpar
+ty_logo.jpg>]
 \openout2 = `revision_history.aux'.
 
  (./revision_history.tex
-Overfull \hbox (7.54721pt too wide) in paragraph at lines 26--43
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 4--19
  [] 
  []
 
@@ -268,49 +264,167 @@ Overfull \hbox (7.54721pt too wide) in paragraph at lines 26--43
  [3
 
 ]
-\openout2 = `section1.aux'.
+\openout2 = `high_concept.aux'.
 
- (./section1.tex) [4
+ (./high_concept.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+) [4
 
 ]
-\openout2 = `section2.aux'.
+\openout2 = `settings_fundamental_concepts.aux'.
 
- (./section2.tex
-<images/graphs/worlddiagram.jpg, id=27, 825.0825pt x 604.2575pt>
+
+(./settings_fundamental_concepts.tex) [5
+
+
+]
+\openout2 = `synopsis.aux'.
+
+ (./synopsis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+) [6
+
+
+]
+\openout2 = `themes.aux'.
+
+ (./themes.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 2--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--20
+
+ []
+
+[7
+
+
+]
+\openout2 = `characters.aux'.
+
+ (./characters.tex
+<images/graphs/characters/bad_eleven_circumplex.png, id=38, 602.25pt x 602.25pt
+>
+File: images/graphs/characters/bad_eleven_circumplex.png Graphic file (type png
+)
+<use images/graphs/characters/bad_eleven_circumplex.png>
+Package pdftex.def Info: images/graphs/characters/bad_eleven_circumplex.png  us
+ed on input line 10.
+(pdftex.def)             Requested size: 328.63115pt x 328.64705pt.
+<images/graphs/characters/bad_eleven_map_of_relations.png, id=39, 602.25pt x 60
+2.25pt>
+File: images/graphs/characters/bad_eleven_map_of_relations.png Graphic file (ty
+pe png)
+<use images/graphs/characters/bad_eleven_map_of_relations.png>
+Package pdftex.def Info: images/graphs/characters/bad_eleven_map_of_relations.p
+ng  used on input line 11.
+(pdftex.def)             Requested size: 328.63115pt x 328.64705pt.
+ [8
+
+
+]
+Overfull \vbox (3.36653pt too high) has occurred while \output is active []
+
+
+[9 <./images/graphs/characters/bad_eleven_circumplex.png> <./images/graphs/char
+acters/bad_eleven_map_of_relations.png>]
+<images/graphs/characters/blank_circumplex.png, id=48, 602.25pt x 602.25pt>
+File: images/graphs/characters/blank_circumplex.png Graphic file (type png)
+<use images/graphs/characters/blank_circumplex.png>
+Package pdftex.def Info: images/graphs/characters/blank_circumplex.png  used on
+ input line 34.
+(pdftex.def)             Requested size: 328.63115pt x 328.64705pt.
+<images/graphs/characters/blank_map_of_relations.png, id=49, 602.25pt x 602.25p
+t>
+File: images/graphs/characters/blank_map_of_relations.png Graphic file (type pn
+g)
+<use images/graphs/characters/blank_map_of_relations.png>
+Package pdftex.def Info: images/graphs/characters/blank_map_of_relations.png  u
+sed on input line 35.
+(pdftex.def)             Requested size: 328.63115pt x 328.64705pt.
+<images/graphs/characters/001_map_of_relations.png, id=50, 602.25pt x 602.25pt>
+
+File: images/graphs/characters/001_map_of_relations.png Graphic file (type png)
+
+<use images/graphs/characters/001_map_of_relations.png>
+Package pdftex.def Info: images/graphs/characters/001_map_of_relations.png  use
+d on input line 36.
+(pdftex.def)             Requested size: 328.63115pt x 328.64705pt.
+ [10]
+Overfull \vbox (3.36653pt too high) has occurred while \output is active []
+
+
+[11 <./images/graphs/characters/blank_circumplex.png> <./images/graphs/characte
+rs/blank_map_of_relations.png>]) [12 <./images/graphs/characters/001_map_of_rel
+ations.png>]
+\openout2 = `world_diagram.aux'.
+
+ (./world_diagram.tex
+<images/graphs/worlddiagram.jpg, id=63, 696.6025pt x 1090.0725pt>
 File: images/graphs/worlddiagram.jpg Graphic file (type jpg)
 <use images/graphs/worlddiagram.jpg>
 Package pdftex.def Info: images/graphs/worlddiagram.jpg  used on input line 5.
-(pdftex.def)             Requested size: 384.1096pt x 281.30876pt.
-) [5
+(pdftex.def)             Requested size: 341.43437pt x 534.2899pt.
+) [13
 
 
  <./images/graphs/worlddiagram.jpg>]
-\openout2 = `section3.aux'.
-
- (./section3.tex) [6
+\openout2 = `goals_outline.aux'.
 
 
-] (./main.aux (./frontespizio.aux)
-(./revision_history.aux) (./section1.aux) (./section2.aux) (./section3.aux)) ) 
+(./goals_outline.tex [14
+
+
+] [15]) [16] (./main.aux (./frontespizio.aux)
+(./revision_history.aux) (./high_concept.aux)
+(./settings_fundamental_concepts.aux) (./synopsis.aux) (./themes.aux)
+(./characters.aux) (./world_diagram.aux) (./goals_outline.aux)) ) 
 Here is how much of TeX's memory you used:
- 2070 strings out of 492642
- 29695 string characters out of 6133163
- 103796 words of memory out of 5000000
- 5912 multiletter control sequences out of 15000+600000
+ 2143 strings out of 492616
+ 32374 string characters out of 6129481
+ 105577 words of memory out of 5000000
+ 5981 multiletter control sequences out of 15000+600000
  6278 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,25p,325b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
-<
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmtt10.pfb>
-Output written on main.pdf (6 pages, 251877 bytes).
+ 41i,8n,25p,784b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (16 pages, 698414 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
