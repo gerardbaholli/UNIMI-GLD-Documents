@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.9)  7 NOV 2019 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.9)  7 NOV 2019 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -408,7 +408,7 @@ Package pdftex.def Info: images/graphs/worlddiagram.jpg  used on input line 5.
 Here is how much of TeX's memory you used:
  2143 strings out of 492616
  32374 string characters out of 6129481
- 105577 words of memory out of 5000000
+ 106577 words of memory out of 5000000
  5981 multiletter control sequences out of 15000+600000
  6278 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -421,7 +421,7 @@ e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (16 pages, 698414 bytes).
+Output written on main.pdf (16 pages, 698320 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
