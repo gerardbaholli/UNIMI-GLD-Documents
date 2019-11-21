@@ -1,26 +1,26 @@
-\contentsline {section}{\numberline {1}High Concept}{4}% 
-\contentsline {section}{\numberline {2}Settings/Fundamental concepts}{5}% 
-\contentsline {section}{\numberline {3}Synopsis}{6}% 
-\contentsline {subsection}{\numberline {3.1}Act I}{6}% 
-\contentsline {subsection}{\numberline {3.2}Act II}{6}% 
-\contentsline {subsection}{\numberline {3.3}Act III}{6}% 
-\contentsline {section}{\numberline {4}Themes}{7}% 
-\contentsline {section}{\numberline {5}Characters}{8}% 
-\contentsline {subsection}{\numberline {5.1}B.A.D. Eleven}{8}% 
-\contentsline {subsubsection}{\numberline {5.1.1}Circumplex}{9}% 
-\contentsline {subsection}{\numberline {5.2}Blank}{10}% 
-\contentsline {subsubsection}{\numberline {5.2.1}Backstory}{10}% 
-\contentsline {subsubsection}{\numberline {5.2.2}Circumplex}{11}% 
-\contentsline {subsection}{\numberline {5.3}Minor characters}{12}% 
-\contentsline {subsubsection}{\numberline {5.3.1}\#005}{12}% 
-\contentsline {subsubsection}{\numberline {5.3.2}\#009}{12}% 
-\contentsline {subsubsection}{\numberline {5.3.3}\#010}{12}% 
-\contentsline {section}{\numberline {6}World Diagram}{13}% 
-\contentsline {section}{\numberline {7}Goals Outline}{14}% 
-\contentsline {subsection}{\numberline {7.1}Hawkins: City}{14}% 
-\contentsline {subsection}{\numberline {7.2}Hawkins: Surroundings}{14}% 
-\contentsline {subsection}{\numberline {7.3}Lindale}{14}% 
-\contentsline {subsection}{\numberline {7.4}Dallas}{15}% 
-\contentsline {subsection}{\numberline {7.5}Core}{15}% 
-\contentsline {subsection}{\numberline {7.6}Dallas -final-}{16}% 
-\contentsline {subsection}{\numberline {7.7}Core -final-}{16}% 
+\contentsline {section}{\numberline {1}High Concept}{4}{section.1}% 
+\contentsline {section}{\numberline {2}Settings/Fundamental concepts}{5}{section.2}% 
+\contentsline {section}{\numberline {3}Synopsis}{6}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Act I}{6}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Act II}{6}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Act III}{6}{subsection.3.3}% 
+\contentsline {section}{\numberline {4}Themes}{7}{section.4}% 
+\contentsline {section}{\numberline {5}Characters}{8}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}B.A.D. Eleven}{8}{subsection.5.1}% 
+\contentsline {subsubsection}{\numberline {5.1.1}Circumplex}{10}{subsubsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.2}Blank}{11}{subsection.5.2}% 
+\contentsline {subsubsection}{\numberline {5.2.1}Backstory}{11}{subsubsection.5.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.2}Circumplex}{13}{subsubsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.3}Minor characters}{14}{subsection.5.3}% 
+\contentsline {subsubsection}{\numberline {5.3.1}\#005}{14}{subsubsection.5.3.1}% 
+\contentsline {subsubsection}{\numberline {5.3.2}\#009}{14}{subsubsection.5.3.2}% 
+\contentsline {subsubsection}{\numberline {5.3.3}\#010}{14}{subsubsection.5.3.3}% 
+\contentsline {section}{\numberline {6}World Diagram}{15}{section.6}% 
+\contentsline {section}{\numberline {7}Goals Outline}{16}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Hawkins: City}{16}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Hawkins: Surroundings}{16}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {7.3}Lindale}{16}{subsection.7.3}% 
+\contentsline {subsection}{\numberline {7.4}Dallas}{17}{subsection.7.4}% 
+\contentsline {subsection}{\numberline {7.5}Core}{17}{subsection.7.5}% 
+\contentsline {subsection}{\numberline {7.6}Dallas -final-}{18}{subsection.7.6}% 
+\contentsline {subsection}{\numberline {7.7}Core -final-}{18}{subsection.7.7}% 
