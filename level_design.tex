@@ -2,6 +2,58 @@
 In this section the sequences of the implemented level "Giant Chasm" are explained. The level is divided into 5 sequences.\\
 Under the representative map of the section are listed all the dialogues belonging to that specific time section.
 
+\subsection{Level Map (First Sketch)}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_map.jpg}
+	\caption*{Complete map of the level (Boss Room excluded)}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_colored_map.jpg}
+	\caption*{Section 1: Yellow, Section 2: Orange, Section 3: Red}
+\end{figure}
+
+\subsection{Visual References}
+
+\subsubsection{Giant Chasm Outside}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_outside.jpg}
+	\caption*{Overview of the Giant Chasm. \textit{[Made in the Abyss]}}
+\end{figure}
+
+\subsubsection{Giant Chasm Section 1 \& 2}
+
+\vspace*{0.3cm}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_section_1_2.png}
+	\caption*{Path of the first and second section}
+\end{figure}
+
+\subsubsection{Giant Chasm Section 3}
+
+\vspace*{0.3cm}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_section_3.jpg}
+	\caption*{Ground in the third section}
+\end{figure}
+
+\subsubsection{Giant Chasm Core}
+
+\vspace*{0.3cm}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_core.png}
+	\caption*{Core of the Upside-Down (in-game it will be more organic and it will emit more red light)}
+	\caption{ \textit{[Metroid Prime]}}
+\end{figure}
+
 \subsection{Dialogues}
 
 \subsubsection{Section 1}
@@ -20,12 +72,14 @@ Under the representative map of the section are listed all the dialogues belongi
 	If the player tries to go on the right:
 	\speak{\#010} \textit{"This tangle of branches is too thick, we will not be able to pass this way. Let's find another path."}\\
 	
-	\textbf{Reached the remains of a building that collapsed inside the crater, Elby and 10 arrive in what appears to bean old ballroom. Suddenly they hear the roars of monsters, which appear one after another around them.}\\
+	\textbf{Reached the remains of a building that collapsed inside the crater, Elby and 10 arrive in what appears to be
+an old ballroom. Suddenly they hear the roars of monsters, which appear one after another around them.}\\
 	
 	
-	\speak{\#010} \textit{"We are in their den after all, just try to save as much stamina as possible!"}\\
+	\speak{\#010} \direct{Worried} \textit{"We are in their den after all, just try to save as much stamina as possible!"}\\
 	
-	\textbf{Once the monsters are defeated, they continue along the cliff to reach a second room divided in halffrom a pit.}\\
+	\textbf{Once the monsters are defeated, they continue along the cliff to reach a second room divided in half
+from a pit.}\\
 	
 	\speak{\#010} \textit{"I don't think I can jump so much, I'm sorry ..."}
 	\speak{Elby} \textit{(That branch ... Maybe with my skills I can create a path)}\\
@@ -47,8 +101,8 @@ Under the representative map of the section are listed all the dialogues belongi
 	\speak{\#010} \textit{"This is the only point from which we could descend, but the branches are too thick! Do you have any ideas?"}
 	\speak{Elby} \direct{Looks around}
 	\speak{Elby} \direct{Indicates a building on the edge of the crater}
-	\speak{Elby} \textit{"Freeze it"}
-	\speak{\#010} \textit{"Maybe by combining our skills we can bring it down. Let's try!"}\\
+	\speak{Elby} \direct{Smiling}\textit{"Freeze it"}
+	\speak{\#010} \direct{Excited} \textit{"Maybe by combining our skills we can bring it down. Let's try!"}\\
 	
 	
 	\textbf{After freezing the branches that stabilized the structure and having destroyed them by means of telekinesis, the building begins to collapse and the debris, after rolling along the wall, hit the barrier of branches, opening a gap.}\\
@@ -66,10 +120,10 @@ Under the representative map of the section are listed all the dialogues belongi
 	\speak{\#010} \direct{Coff coff}
 	\speak{Elby} \textit{"The density of the air has changed, we are getting closer"}\\
 	
-	Entering Safe Room:
-	\speak{\#010} \textit{"We should be safe in here, we can make a brief stop to regain strength"}\\
+	Entering the Safe Room:
+	\speak{\#010} \direct{Relieved}\textit{"We should be safe in here, we can make a brief stop to regain strength"}\\
 	
-	Leaving Safe Room:
+	Leaving the Safe Room:
 	\speak{\#010} \textit{"Let's go, we should be halfway there"}
 \end{dialogue}
 
@@ -77,12 +131,19 @@ Under the representative map of the section are listed all the dialogues belongi
 \subsubsection{Section 3}
 \vspace*{0.3cm}
 
+
+	\textbf{The proximity to the core is increasingly evident: the ground is completely covered with organic branches and the air density is skyrocketing.}
+
 \begin{dialogue}
+	
+	
 	\speak{\#010} \textit{"We're getting closer to the core, the light that emanates is much more intense than before"}
-	\speak{Elby} \textit{"Don't distract yourself!"}
+	\speak{Elby} \direct{Angered} \textit{"Don't distract yourself!"}
 	\speak{\#010} \textit{"Sorry!"}\\
 	
-	Branching:
+	
+	\textbf{Unable to follow the ground path, Elby and \#010 decide to continue the journey using the ramifications of the core as a route}\\
+	
 	\speak{\#010} \textit{"The branching of the core is extremely dense at this point"}
 	\speak{Elby} \textit{"We are almost there"}\\
 	
@@ -90,7 +151,9 @@ Under the representative map of the section are listed all the dialogues belongi
 	\speak{\#010} \textit{"We can now reach the entrance from here"}
 	\speak{Elby} \direct{nods}\\
 	
-	Core scale:
+	
+	\textbf{Finally they arrive on a non-natural path, certainly created by Kyle to reach the center of the giant chasm.}\\
+	
 	\speak{\#010} \textit{"\refer{\#001} must be close, are you ready?"}
 	\speak{Elby} \textit{"Yes"} or \textit{"Not yet"}\\
 	
@@ -109,7 +172,7 @@ Under the representative map of the section are listed all the dialogues belongi
 \begin{dialogue}
 	
 	\speak{\#010} \textit{"\#001!"}
-	\speak{Kyle} \textit{"Oh, finally. I was starting to think you were dead along the way!"}
+	\speak{Kyle} \direct{Joking} \textit{"Oh, finally. I was starting to think you were dead along the way!"}
 	\speak{\#005} \direct{Squirms}
 	\speak{Kyle} \textit{"Hey hey, calm down, wait for your turn"}\\
 	
@@ -124,7 +187,7 @@ Under the representative map of the section are listed all the dialogues belongi
 	\speak{\#010} \textit{"And are you going to kill us all for your purpose?"}
 	\speak{Kyle} \textit{"Not everyone, just the two of them in case they don't want to cooperate" \direct{Points \refer{Elby} and \refer{\#005}}}
 	\speak{Kyle} \textit{"By the way, you are staring at me with a fierce look, do you have something to say?" \direct{Watching \refer{Elby}}}
-	\speak{Elby} \textit{"Friends ... don't ... LIE !!!"} \direct{Gust of energy}
+	\speak{Elby} \direct{Really angered} \textit{"Friends ... don't ... LIE !!!"} \direct{Gust of energy}
 	\speak{Kyle} \textit{"Haha, so you consider me a friend, how nice!"}
 	\speak{Kyle} \direct{Serious look}
 	\speak{Kyle} \textit{"Chatting time's over, now give me your powers!"}
@@ -138,7 +201,9 @@ Under the representative map of the section are listed all the dialogues belongi
 	\speak{Kyle} \textit{"... The effect of the core is more intense than I thought ..."}
 	\speak{Elby} \textit{"Free \#005. NOW!"}
 	\speak{Kyle} \textit{"..."}
-	The costrinctions around 005 are released, allowing him to move.
+	
+	\textbf{The costrinctions around 005 are released, allowing him to move.}\\
+	
 	\speak{\#005}: \textit{"Thank y-"}\\
 	
 	\textbf{\#005 stops moving and suddenly blood starts to come out of his mouth.}\\
@@ -171,8 +236,7 @@ Under the representative map of the section are listed all the dialogues belongi
 	
 	\speak{Kyle} \textit{"The time is right. Go on!"}\\
 	
-	\textbf{Elby uses her powers to open a portal}\\
+	\textbf{Elby starts to focus. The chasm begins to tremble again and in few seconds a portal appears in the room. Kyle watches it with a satisfied look and tears running down his face.}\\
 	
 	\speak{Kyle} \textit{"Now i can finally go home ..."}
 \end{dialogue}
-
