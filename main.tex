@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\geometry{a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{hyperref}
+\hypersetup{
+	unicode=true,
+	pdfborder={0 0 0},
+	breaklinks=true
+}
+\usepackage{dialogue}
+\usepackage{polyglossia}
+\usepackage{color, colortbl}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{dark-gray}{gray}{0.30}
+\definecolor{light-gray}{gray}{0.60}
+\definecolor{light-light-gray}{gray}{0.90}
+
+\usepackage{float}
+\usepackage[labelformat=empty]{caption}
+
+
+\renewcommand*\contentsname{Summary}
+
+\begin{document}
+
+\include{frontespizio}
+
+\include{revision_history}
+
+\tableofcontents
+
+\include{high_concept}
+\include{settings_fundamental_concepts}
+\include{themes}
+%\include{periodic_table}
+\include{synopsis}
+\include{story_flowchart}
+\include{world_diagram}
+\include{goals_outline}
+\include{scope}
+\include{enemy_chart}
+\include{skill_chart}
+\include{characters}
+\include{level_design}
+
+
+\end{document}
