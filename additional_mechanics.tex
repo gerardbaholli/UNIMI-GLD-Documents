@@ -28,35 +28,99 @@ Therefore energy is essential for survival and for this reason we have decided t
 
 The picture of Elby inside the circle of the HUD changes accordingly to the status of the energy bar. Her facial expression changes when she is in combat and her energy has dropped under 20\%. In this case the figure will show blood dripping from the nose and will remain so until the fight is finished and the energy restored. For example, in the image above, Elby maintains the standard avatar although her life has fallen below 20\% (in this specific case the edge of the game screen will start to flash red).
 
-\subsection{Skills and Items}
+\subsubsection{Skills and Items in HUD}
 During the adventure, the player will unlock several Elby abilities, called Active Skills. These skills can be assigned as the player wishes in the 4 slots available in the Active Skills section of the HUD and can be changed everytime Elby visits a checkpoint. We made this choice because we wanted to allow the player to create a personalized set.\\\\
-Sometimes elby will meet characters who decide to follow her on the journey. These NPCs have unique abilities, called Support Skills, which will be displayed in the Support Skills section of the HUD and they can not be changed. Every Support Skill will be explained below.\\\\
+Sometimes Elby will meet characters who decide to follow her on the journey. These NPCs have unique abilities, called Support Skills, which will be displayed in the Support Skills section of the HUD and they can not be changed. Every Support Skill will be explained below.\\\\
 Items can be also be set in the Active Skills's HUD section, letting the player decide whether to use multiple skills with few objects or vice versa.\\\\
 Being that a turn corresponds to 3 seconds, both Active and Support Skills provide a multiple cooldown of 3 based on the skill damage and effect.
+
+\subsection{Active and Support Skills}
+
+For Active Skills see chapter X(character and enemies sheet).\\
+
+\textbf{Support Skills}\\
+
+\textbf{\#005}\\
+Beast Control (Passive): all damage from monsters is decreased by 1 (except Boss)\\
+Self-Attack (Activate): use the target's melee attack to deal damage (3 turns cooldown).\\
+\textbf{\#005} will be available as a companion in the Lindale Side Quest and in Dallas Gate 1 \& 2.\\
+
+\textbf{\#009}\\
+Blazing Heart (Passive): adds +2 bonuses to Elby's skills\\
+Pillar of Fire (Activate): creates a column of fire that deals area damage (2d8, 7 turns cooldown).\\
+\textbf{\#009} will be available as a companion in the Graveyard side quest and in Word Acquarium (Destroyed).\\
+
+\textbf{\#010}\\
+Ice Armor (Passive): all damage taken by Elby is decreased by 1 (Giant Chasm Section1, 2, 3)\\
+Glaciate (Activate): freezes the ground, blocking the movements of \textbf{\#001} (Boss).\\
+Ice Throw (Activate): throws a block of ice on all enemies (1d4+1, 3 turn cooldown).\\
+\textbf{\#010} will be available as a companion in the Shopping District side quest and Giant Chasm.
+
+\newpage
 
 \subsection{Items and crafting}
 
 \subsubsection{Consumable items}
+\begin{center}
+	\begin{tabular}[c]{| p{4cm} | p{3,5cm} | p{6cm} |}
+		\hline
+		Item &  Effect & Description \\
+		\hline
+		Fresh root & Restores 3d8 HP & An edible root filled with lifeblood. Restores HP.\\
+		\hline
+		Fresh moss & Doubles NRG recovery speed & An edible moss filled with lifeblood. Speeds up NRG recover.\\
+		\hline
+		Rotten root &  None & A root corrupted by the upside-down. It can be used in items crafting.\\
+		\hline
+		Rotten moss &  None & A moss corrupted by the upside-down. It can be used in items crafting.\\
+		\hline
+		Demorat Tail &  None & A tail obtained from a Demorat. It can be used in item crafting.\\
+		\hline
+		Demowolf Tooth & None & A tooth obtained from a Demorat. It can be used in item crafting.\\
+		\hline
+		Monster meat & None & Meat torn from a monster. It can be cooked.\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\subsubsection{Craftable items}
+Elby can craft this items thanks to Kyle's teaching. She can do that only when she rests on a checkpoint.
+
+\begin{center}
+	\begin{tabular}[c]{| p{4cm} | p{3,5cm} | p{6cm} |}
+		\hline
+		Item &  Effect & Description \\
+		\hline
+		Rotten potion (Rotten root + Monster meat) & A basic potion for the survival in the upside down & The most common potion. Restores 20 HP.\\
+		\hline
+		Fresh potion (Fresh root + Monster meat) & A potion of maximum purity & The most common potion. Restores all HP.\\
+		\hline
+		Rotten elisir (Rotten moss + Monster meat) & A basic elisir for the survival in the upside down & The most common potion. Restores 20 HP.\\
+		\hline
+		Fresh elisir (Fresh moss + Monster meat) & An elisir of maximum purity & The most common potion. Restores all NRG.\\
+		\hline
+		Bracelet & 5 Demorat tails + X tails & A bracelet that boosts Elby's defensive stats. It powers up for every extra tail used.\\
+		\hline
+		Necklace & 5 Demowolf tooth + X tooth & A necklace that boosts Elby's offensive stats. It powers up for every extra tooth used.\\
+		\hline
+	\end{tabular}
+\end{center}
 
 \subsubsection{Initial inventory prediction}
 The potential inventory of the player at the beginning of the level could be:
 \begin{itemize}
-	\item Coal x2
-	\item Fresh root x2
-	\item Demorat tail x1
-	\item Stick x3
+	\item Fresh root x1
+	\item Rotten root x4
+	\item Demowolf tooth x4
 	\item Bracelet x1
-	\item Small potion x1
-	\item Energy potion x1
-	\item Bag x1
-	\item Rock x3
-	\item Demodog meat x2
-	\item Sand x1
+	\item Rotten potion x3
+	\item Fresh elisir x1
+	\item Rotten elisir x1
+	\item Monster meat x2
 \end{itemize}
 
-\subsubsection{Collectible items}
-
-\newpage
+\subsection{Secret items}
+In certain location of the Upside-Down (in particular the Hawkins Laboratory and \#001 Lab) players can find documents that contain detailed information on the experimental subjects and the observations collected by them of the Upside-Down Core and its effects on the environment. Collecting them is optional, but is essential for the complete undestanding of \#001 plan and his actions, as well as changing some dialogues and events throughout the gameplay.
 
 \subsection{Checkpoints and Game Saves}
 

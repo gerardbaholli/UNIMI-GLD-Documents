@@ -29,31 +29,49 @@ Under the representative map of the section are listed all the dialogues belongi
 *We only consider the playing time and not the dialogues (except for the final Boss).\\
 
 
+\subsection{Event Diagram}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/graphs/event_diagram.png}
+\end{figure}
+
 \subsection{Level Map}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.55\linewidth]{images/map/map_clear.png}
+	\includegraphics[width=0.6\linewidth]{images/map/map_clear.png}
 	\caption*{Complete 2D map of the level}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{images/map/2D_map_color.png}
+	\includegraphics[width=0.6\linewidth]{images/map/2D_map_color.png}
 	\caption*{Color}
 \end{figure}
 
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{images/map/map_all_sections.png}
+	\includegraphics[width=0.6\linewidth]{images/map/map_all_sections.png}
 	\caption*{Section 1: green, Section 2: yellow, Section 3: red, Boss Room: blue}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\linewidth]{images/map/2D_map_not.png}
+	\includegraphics[width=0.6\linewidth]{images/map/2D_map_not.png}
 	\caption*{Gray areas cannot be walked on by the player}
+\end{figure}
+\newpage
+
+\subsubsection{Measures}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{images/map/map_measures.png}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{images/map/3D_map_half.png}
 \end{figure}
 \newpage
 
@@ -65,7 +83,6 @@ Under the representative map of the section are listed all the dialogues belongi
 \newpage
 
 \subsection{Level Description}
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.95\linewidth]{images/graphs/level_description.png}
@@ -73,8 +90,8 @@ Under the representative map of the section are listed all the dialogues belongi
 \newpage
 
 
-\subsubsection{Giant Chasm Outside}
-The level designed is the subarea 15 of the Core Enviroment. It is located in the north side of the City Ruins. The diameter of the giant chasm is at least 10 km and its origins are unknown, even if in-game characters often assume that it originated from the impact of a meteorite. From the outside it is impossible to see the contents of the chasm due to the lack of internal light and for the thick crop of branches that surround the entire area. Fixed enemies are placed inside the rooms, while some monsters can randomly spawn along the way.
+\subsubsection{Giant Chasm - Outside}
+The level designed is the subarea 15 of the Core Enviroment. It is located in the north side of the City Ruins. The diameter of the giant chasm is at least 300m and its origins are unknown, even if in-game characters often assume that it originated from the impact of a meteorite. From the outside it is impossible to see the contents of the chasm due to the lack of internal light and for the thick crop of vines that surround the entire area. Fixed enemies are placed inside the rooms, while some monsters can randomly spawn along the way.
 
 \begin{figure}[H]
 	\centering
@@ -84,14 +101,24 @@ The level designed is the subarea 15 of the Core Enviroment. It is located in th
 \newpage
 
 
-\subsubsection{Section 1}
-The first section is approximately 500m long and with a variable width depending on the type of terrain (land, branches, etc.). Players enter through a gap in the south side of the Giant Chasm. The left side of the path is blocked by branches and debris and players can only unlock it from the other side in Section 3. Proceeding to the right, players reach the ballroom, where the DemoCerberus stands guard. After the first ruin, players will be forced to continue on the big branches coming from the lower levels of the Chasm, until they returns to the ridge. At the point of descent for the Second Section, it will be necessary to explore the surroundings in order to find a way to break through the obstacle.
+\subsubsection{Giant Chasm - Section 1}
+The first section is approximately 500m long and with a variable width depending on the type of terrain (land, vines, etc.). Players enter through a gap in the south side of the Giant Chasm. The left side of the path is blocked by vines and debris and players can only unlock it from the other side in Section 3. Proceeding to the right, players reach the ballroom, where the DemoCerberus stands guard. After the first ruin, players will be forced to continue on the big vines coming from the lower levels of the Chasm, until they returns to the ridge. At the point of descent for the Second Section, it will be necessary to explore the surroundings in order to find a way to break through the obstacle.
 
 \vspace*{0.3cm}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_section_1.png}
+	\includegraphics[width=0.7\linewidth]{images/visual_ref/15_giant_chasm/chasm_section_1.png}
 	\caption*{Path of the first section}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/visual_ref/15_giant_chasm/tree.jpg}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/pallette/pallette_section_01.png}
 \end{figure}
 
 \begin{figure}[H]
@@ -107,71 +134,93 @@ The first section is approximately 500m long and with a variable width depending
 \end{figure}
 
 
-\textbf{Encounters A}
+\textbf{Encounters}
 \begin{itemize}
 	\item 1x DemoCerberus
 	\item 2x DemoWolf
 	\item 4x DemoDog
 \end{itemize}
-The Democerberus is considered a mini-boss and its statistics are proportionally reduced compared to its previous Level Boss version. At the entrance to the room, the DemoCerberus, previously in a resting position, enters an offensive state, remaining however to guard the exit of the ruin. Once the first damage threshold has been exceeded, the monster will recall two DemoWolves, which will immediately attack the players. Until the DemoWolves are defeated, the DemoCerberus will not attack and will be invulnerable. Ultimatly, upon reaching the second threshold, the Democerberus will call up four DemoDogs and it will apply the previous pattern.\\
+The Democerberus is considered a mini-boss and its statistics are proportionally reduced compared to its previous Level Boss version. At the entrance to the room, the DemoCerberus, previously in a resting position, enters an offensive state, remaining however to guard the exit of the ruin. Once the first damage threshold has been exceeded, the monster will recall two DemoWolves, which will immediately attack the players. Until the DemoWolves are defeated, the DemoCerberus will not attack and will be invulnerable. Ultimatly, upon reaching the second threshold, the Democerberus will call up four DemoDogs and it will apply the previous pattern.
 
-%%% SISTEMARE
-1 - 50\% Demorat, 30\% Demobat, 20\% Demodog\\
-2 - 15\% Demowolves, 35\% Demobat, 50\% Demodog\\
-3 - Democerberus x1\\
-4 - 50\% Demorat, 30\% Demobat, 20\% Demodog\\
-5 - 50\% Demorat, 30\% Demobat, 20\% Demomoles\\
-6 - 20\% Demomoles, 60\% Demobat, 20\% Demodog\\
-
-\textbf{Sounds}\\
-DemoDog / DemoWolf howls can be heard randomly. Near the ruins there is a sound of landslides. The sound of Elby's footsteps changes according to the terrain on which she is located.\\
-
-\textbf{Lighting}\\
-There's a soft white light coming from the few opening in the crop of branches. It is also possible to see a slight red light coming from the chasm center. The rooms in the ruins are illuminated by a strange luminous moss.\\
-
-\textbf{Drops}\\
-1 - Ammulate\\
-2 - Small potion\\
-3 - Coal\\
-4 - Sand\\
-5 - Fresh root\\
-6 - Medium potion\\
-7 - Small potion\\
-8 - Demorat tail\\
-9 - Sand\\
-
-\textbf{Puzzle}\\
-To change area Elby will find herself facing a bridge of dry and weak branches. At this point, in order to be able to move on, she will need to freeze the branches so as to strengthen them.\\
-The path melts very quickly so that the protagonist can only cross each box once. once all the quadrants are weakened, the block will break making it fall. Elby will therefore have to be at the point indicated by the X in the image below in order to continue his journey. If this does not happen, \#010 will repeat the reconstruction of the bridge to prevent it from falling and injuring Elby. The latter will lose a quarter of its life and will have to repeat the operation.\\
-
-Main Solution\\
-up / left / up x5 / right / down x4 / right / up x5 / left / up\\
-
-[foto1.1]\\
-
-Alternative Solution\\
-up / left / up / right x2 / up / left x2 / up / right x2 / up / left x2 / up / right x2 / up / left / up\\
-
-[foto1.2]\\
-
-Puzzle 2 is mirrored and therefore can be solved from both left and right.\\
-
-The path can be solved as follows:\\
-Main Solution\\
-up / left x2 / up x4 / right / down x3 / right x2 / down / right / up x4 / left / down x2 / left / up x2\\
+\begin{itemize}
+	\item 1 - 50\% Demorat, 30\% Demobat, 20\% Demodog
+	\item 2 - 15\% Demowolves, 35\% Demobat, 50\% Demodog
+	\item 3 - Democerberus x1
+	\item 4 - 50\% Demorat, 30\% Demobat, 20\% Demodog
+	\item 5 - 50\% Demorat, 30\% Demobat, 20\% Demomoles
+	\item 6 - 20\% Demomoles, 60\% Demobat, 20\% Demodog
+\end{itemize}
 
 \newpage
 
+\textbf{Sounds}\\
+DemoDog / DemoWolf howls can be heard randomly. Near the ruins there is a sound of landslides. The sound of Elby's footsteps changes according to the terrain on which she is located.
 
-\subsubsection{Section 2}
+\begin{itemize}
+	\item 1 - Howling wolves
+	\item 2 - Moaning monsters
+	\item 3 - Landslide noise
+\end{itemize}
+
+\textbf{Lighting}\\
+There's a soft white light coming from the few opening in the crop of vines. It is also possible to see a slight red light coming from the chasm center. The rooms in the ruins are illuminated by a strange luminous moss.
+
+\begin{itemize}
+	\item 1 - Trigger light change
+\end{itemize}
+
+\textbf{Drops}
+\begin{itemize}
+	\item 1 - Fresh moss
+	\item 2 - Rooten potion
+	\item 3 - Rotten root
+	\item 4 - Demowolf Tooth
+	\item 5 - Fresh root
+	\item 6 - Rotten moss
+	\item 7 - Rotten moss
+	\item 8 - Fresh elisir
+	\item 9 - Demorat Tail
+\end{itemize}
+
+\textbf{Puzzle}\\
+To change area Elby will find herself facing a bridge of dry and weak vines. At this point, in order to be able to move on, she will need to freeze the vines so as to strengthen them.\\
+The path melts very quickly so that the protagonist can only cross each box once. once all the quadrants are weakened, the block will break making it fall. Elby will therefore have to be at the point indicated by the X in the image below in order to continue his journey. If this does not happen, \#010 will repeat the reconstruction of the bridge to prevent it from falling and injuring Elby. The latter will lose a quarter of its life and will have to repeat the operation.\\
+The path can be solved as follows:\\
+
+\newpage
+
+\textit{Main Solution}\\
+up / left x2 / up x4 / right / down x3 / right x2 / down / right / up x4 / left / down x2 / left / up x2\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/puzzle/puzzle_011.png}
+\end{figure}
+
+\textit{Alternative Solution}\\
+up / left x2 / up x2 / right / down / right x2 / down / right / up x4 / left / down x2 / left / up / left x2 / up / right x2 / up\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/puzzle/puzzle_012.png}
+\end{figure}
+\newpage
+
+
+\subsubsection{Giant Chasm - Section 2}
 The second section is about 4 km long and takes players to the first underground layer.
-Compared to Section 1, the route is narrower and made up of tunnels that allow you to move upwards or downwards and reach platforms and / or ridges that cannot be accessed in other ways. Players will often be asked to use skills to open passages and / or move debris. The soil, where it is not covered with organic branches, is very irregular due to the proximity of the nucleus and the presence of many DemoMoles. Players will find a Safe Room near the beginning of Section 2, and they will unlock a path to reach the room again just before Section 3.
+Compared to Section 1, the route is narrower and made up of tunnels that allow you to move upwards or downwards and reach platforms and / or ridges that cannot be accessed in other ways. Players will often be asked to use skills to open passages and / or move debris. The soil, where it is not covered with organic vines, is very irregular due to the proximity of the nucleus and the presence of many DemoMoles. Players will find a Safe Room near the beginning of Section 2, and they will unlock a path to reach the room again just before Section 3.
 
 \vspace*{0.3cm}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_section_2.png}
 	\caption*{Path of the second section}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/pallette/pallette_section_02.png}
 \end{figure}
 
 \begin{figure}[H]
@@ -198,48 +247,94 @@ A herd of DemoWolf. Players can kill DemoDogs one at a time to deal individually
 	\item x2 DemoMoles
 	\item x1 DemoBat
 \end{itemize}
-Entering the ruin, the player will find it empty. Once in the middle of the room, Elby and \#010 will remain stuck in the ground, and the player will have a few seconds to activate the Levitation skill to avoid taking damage (Quick Time Event). Finally, the DemoMoles and DemoBats will appear, starting the battle.\\
+Entering the ruin, the player will find it empty. Once in the middle of the room, Elby and \#010 will remain stuck in the ground, and the player will have a few seconds to activate the Levitation skill to avoid taking damage (Quick Time Event). Finally, the DemoMoles and DemoBats will appear, starting the battle.
 
-%%% SISTEMARE
-7 - 50\% Demorat, 30\% Demobat, 20\% Demodog\\
-8 - 20\% Demorat, 60\% Demobat, 20\% Demodog\\
-9 - 15\% Demowolves, 35\% Demobat, 50\% Demodog\\
-10 - 50\% Demorat, 30\% Demobat, 20\% Demodog\\
-11 - 20\% Demobat, 60\% Demorat, 20\% Demodog\\
-12 - 50\% Demorat, 30\% Demobat, 20\% Demodog\\
-13 - Demowolf x1, Demodog x2\\
-14 - 20\% Demorat, 60\% Demobat, 20\% Demodog\\
-15 - 40\% Demorat, 40\% Demobat, 20\% Demomoles\\
-16 - Demomoles x2, Demobat x1\\
+\begin{itemize}
+	\item 7 - 50\% Demorat, 30\% Demobat, 20\% Demodog
+	\item 8 - 20\% Demorat, 60\% Demobat, 20\% Demodog
+	\item 9 - 15\% Demowolves, 35\% Demobat, 50\% Demodog
+	\item 10 - 50\% Demorat, 30\% Demobat, 20\% Demodog
+	\item 11 - 20\% Demobat, 60\% Demorat, 20\% Demodog
+	\item 12 - 50\% Demorat, 30\% Demobat, 20\% Demodog
+	\item 13 - Demowolf x1, Demodog x2
+	\item 14 - 20\% Demorat, 60\% Demobat, 20\% Demodog
+	\item 15 - 40\% Demorat, 40\% Demobat, 20\% Demomoles
+	\item 16 - Demomoles x2, Demobat x1
+\end{itemize}
+
 
 \textbf{Sounds}\\
-The rustling of moving branches can be heard randomly. The sound of Elby's footsteps changes according to the terrain on which she is located.\\
+The rustling of moving vines can be heard randomly. The sound of Elby's footsteps changes according to the terrain on which she is located.
+
+\begin{itemize}
+	\item 4 - Landslide
+	\item 5 - Flapping of wings
+	\item 6 - Whoosh vines
+	\item 7 - Landslide
+\end{itemize}
 
 \textbf{Lighting}\\
-There's no light coming from above. The only lights are the white one coming from the moss and the red one coming from the core (more intense than Section 1).\\
+There's no light coming from above. The only lights are the white one coming from the moss and the red one coming from the core (more intense than Section 1).
 
-\textbf{Drops}\\
-10 - Shoal root\\
-11 - Stick\\
-12 - Bracelet\\
-13 - Sand\\
-14 - Rock\\
-15 - Small potion\\
-16 - Big potion\\
-17 - Powder\\
+\begin{itemize}
+	\item 2 - Trigger light change
+\end{itemize}
 
-\textbf{Puzzle}\\
-Hi
 \newpage
 
-\subsubsection{Section 3}
-The third and final section is about 300m long and brings players to the second underground layer. It is not possible to follow any terrain course, forcing the players to climb and descend from the multitude of organic branches coming from the core, now extremely close. In this section players can explore the ramifications to obtain useful items and / or unlock the passage to the entrance of the abyss, allowing a possible backtracking. Following the main path and after facing the NeoDemoGorgon in his den, the player finally arrives in front of the gap for the heart of the Giant Chasm.
+\textbf{Drops}
+\begin{itemize}
+	\item 10 - Rotten elisir
+	\item 11 - Monster meat
+	\item 12 - Demorat Tail
+	\item 13 - Fresh root
+	\item 14 - Demowolf Tooth
+	\item 15 - Rotten root
+	\item 16 - Rotten moss
+	\item 17 - Demorat Tail
+\end{itemize}
+
+\textbf{Puzzle}\\
+Bad Eleven will find the street blocked by a lot of rocks. So she has to push them away, in the correct order, with his special mental ability. When there are no more moves available or the puzzle is irreversibly unsolvable, a dialogue line of \#010 will appear and then the room will be reset.
+The path can be solved as follows:\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{images/puzzle/puzzle_021.png}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/puzzle/puzzle_022.png}
+	\caption*{First step}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/puzzle/puzzle_023.png}
+	\caption*{Second step}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/puzzle/puzzle_024.png}
+	\caption*{Third step}
+\end{figure}
+\newpage
+
+\subsubsection{Giant Chasm - Section 3}
+The third and final section is about 300m long and brings players to the second underground layer. It is not possible to follow any terrain course, forcing the players to climb and descend from the multitude of organic vines coming from the core, now extremely close. In this section players can explore the ramifications to obtain useful items and / or unlock the passage to the entrance of the abyss, allowing a possible backtracking. Following the main path and after facing the NeoDemoGorgon in his den, the player finally arrives in front of the gap for the heart of the Giant Chasm.
 
 \vspace*{0.3cm}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/chasm_section_3.jpg}
 	\caption*{Ground in the third section}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/pallette/pallette_section_03.png}
 \end{figure}
 
 \begin{figure}[H]
@@ -259,36 +354,44 @@ The third and final section is about 300m long and brings players to the second 
 \begin{itemize}
 	\item x1 NeoDemoGorgon
 \end{itemize}
-Just before entering the room, Elby will have chills down her spine. When Elby and \#010 will enter the den, after a brief iteration between the two, the NeoDemoGorgon will awaken and charge the player aggressively. Upon reaching the 50\% life threshold, the beast will start using the same dimensional travel power as the original one, only limited inside the den. Defeated the beast, Elby will go berserk and starts mutilating the corpse of the NeoDemoGorgon, until \#010 manages to calm her down.\\
+Just before entering the room, Elby will have chills down her spine. When Elby and \#010 will enter the den, after a brief iteration between the two, the NeoDemoGorgon will awaken and charge the player aggressively. Upon reaching the 50\% life threshold, the beast will start using the same dimensional travel power as the original one, only limited inside the den. Defeated the beast, Elby will go berserk and starts mutilating the corpse of the NeoDemoGorgon, until \#010 manages to calm her down.
 
-%%% SISTEMARE
-17 - 50\% Demorat, 30\% Demobat, 20\% Demodog\\
-18 - Democerberus x1\\
-19 - 15\% Demowolves, 35\% Demobat, 50\% Demodog\\
-20 - 50\% Demorat, 30\% Demobat, 20\% Demodog\\
-21 - 40\% Demorat, 40\% Demobat, 20\% Demomoles\\
-22 - 50\% Demomoles, 25\% Demobat, 25\% Demodog\\
+\begin{itemize}
+	\item 17 - 50\% Demorat, 30\% Demobat, 20\% Demodog
+	\item 18 - Democerberus x1
+	\item 19 - 15\% Demowolves, 35\% Demobat, 50\% Demodog
+	\item 20 - 50\% Demorat, 30\% Demobat, 20\% Demodog
+	\item 21 - 40\% Demorat, 40\% Demobat, 20\% Demomoles
+	\item 22 - 50\% Demomoles, 25\% Demobat, 25\% Demodog
+\end{itemize}
 
 \textbf{Sounds}\\
-The rustling of moving branches is more intense than Section 2, and a sound similar to the noise of a falling tree can be heard randomly. Elby makes a squelching sound when she walks on a organic branch.\\
+The rustling of moving vines is more intense than Section 2, and a sound similar to the noise of a falling tree can be heard randomly. Elby makes a squelching sound when she walks on a organic branch.
+
+\begin{itemize}
+	\item 8 - Monster roar
+	\item 9 - Rustling branches
+\end{itemize}
 
 \textbf{Lighting}\\
-The environment is lit up with a bright red light emitted from the core. The same light shines slightly from the branches coming from the center of the pit, giving the impression of coming from a liquid similar to blood.\\
+The environment is lit up with a bright red light emitted from the core. The same light shines slightly from the vines coming from the center of the pit, giving the impression of coming from a liquid similar to blood.
 
-\textbf{Drops}\\
-18 - Ampoule\\
-19 - Backpack\\
-20 - Big potion\\
-21 - Big potion\\
+\begin{itemize}
+	\item 3 - Trigger light change
+\end{itemize}
 
-\textbf{Puzzle}\\
-Text\\
-
+\textbf{Drops}
+\begin{itemize}
+	\item 18 - Rotten potion
+	\item 19 - Fresh potion
+	\item 20 - Fresh elisir
+	\item 21 - Fresh elisir
+\end{itemize}
 \newpage
 
 
 \subsubsection{Giant Chasm Core}
-The Core room is located in the center of the Giant Chasm, it has a circular shape with a diameter of X mt. In front of the heart of the creature that controls the Upside-Down, \#001 awaits the arrival of the player.
+The Core room is located in the center of the Giant Chasm, it has a circular shape with a diameter of 50m. In the center of the room stands the heart of the upsidedown, four times Elby high and at least three times wide, in front of which \#001 awaits the arrival of the player.
 
 \vspace*{0.3cm}
 \begin{figure}[H]
@@ -298,88 +401,15 @@ The Core room is located in the center of the Giant Chasm, it has a circular sha
 	\caption{ \textit{[Metroid Prime]}}
 \end{figure}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/visual_ref/15_giant_chasm/pallette/pallette_section_04.png}
+\end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{images/map/2D_map_section_04.png}
 	\caption*{Boss room}
-\end{figure}
-\newpage
-
-
-\subsection{Measures}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=14cm]{images/map/map_measures.png}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=14cm]{images/map/3D_map_half.png}
-\end{figure}
-\newpage
-
-
-\subsection{Enemies}
-
-\vspace*{0.3cm}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/demobat.png}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/demorat.png}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/demoant.png}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/demoant-queen.png}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/demoegg.png}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/demodog.png}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/demowolf.png}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/demomole.png}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/democerberus.png}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/visual_stats/neodemogorgon.png}
 \end{figure}
 \newpage
 
@@ -400,7 +430,7 @@ The Core room is located in the center of the Giant Chasm, it has a circular sha
 	\textbf{After a quick inspection, the two decide to continue along the edge and look for a route to the center.}\\
 	
 	If the player tries to go on the right:
-	\speak{\#010} \textit{"This tangle of branches is too thick, we will not be able to pass this way. Let's find another path."}\\
+	\speak{\#010} \textit{"This tangle of vines is too thick, we will not be able to pass this way. Let's find another path."}\\
 	
 	\textbf{Reached the remains of a building that collapsed inside the crater, Elby and 10 arrive in what appears to be
 an old ballroom. Suddenly they hear the roars of monsters, which appear one after another around them.}\\
@@ -414,7 +444,7 @@ from a pit.}\\
 	\speak{\#010} \textit{"I don't think I can jump so much, I'm sorry ..."}
 	\speak{Elby} \textit{(That branch ... Maybe with my skills I can create a path)}\\
 	
-	\textbf{After using his telekinesis to cross the pit, Elby and \#010 follow the ramifications to continue on the track until they reach a third room, where they find several monsters impaled by branches.}\\
+	\textbf{After using his telekinesis to cross the pit, Elby and \#010 follow the ramifications to continue on the track until they reach a third room, where they find several monsters impaled by vines.}\\
 	
 	
 	\speak{\#010} \textit{"All these pierced monsters, I think it was \refer{\#001.}"}
@@ -428,14 +458,14 @@ from a pit.}\\
 	\textbf{Once at a dead end, they begin to look for a route inland.}\\
 	
 	
-	\speak{\#010} \textit{"This is the only point from which we could descend, but the branches are too thick! Do you have any ideas?"}
+	\speak{\#010} \textit{"This is the only point from which we could descend, but the vines are too thick! Do you have any ideas?"}
 	\speak{Elby} \direct{Looks around}
 	\speak{Elby} \direct{Indicates a building on the edge of the crater}
 	\speak{Elby} \direct{Smiling}\textit{"Freeze it"}
 	\speak{\#010} \direct{Excited} \textit{"Maybe by combining our skills we can bring it down. Let's try!"}\\
 	
 	
-	\textbf{After freezing the branches that stabilized the structure and having destroyed them by means of telekinesis, the building begins to collapse and the debris, after rolling along the wall, hit the barrier of branches, opening a gap.}\\
+	\textbf{After freezing the vines that stabilized the structure and having destroyed them by means of telekinesis, the building begins to collapse and the debris, after rolling along the wall, hit the barrier of vines, opening a gap.}\\
 	
 	
 	\speak{\#010} \textit{"Now we can pass, but let's stay on guard."}
@@ -462,7 +492,7 @@ from a pit.}\\
 \vspace*{0.3cm}
 
 
-	\textbf{The proximity to the core is increasingly evident: the ground is completely covered with organic branches and the air density is skyrocketing.}
+	\textbf{The proximity to the core is increasingly evident: the ground is completely covered with organic vines and the air density is skyrocketing.}
 
 \begin{dialogue}
 	
@@ -548,12 +578,12 @@ from a pit.}\\
 	\speak{Kyle} \direct{swallows the DemoParasite}
 	\speak{Kyle} \direct{closes his eyes}\\
 	
-	\textbf{Elby launches a mental attack, but a barrier of branches block it}\\
+	\textbf{Elby launches a mental attack, but a barrier of vines block it}\\
 	\speak{Elby} "???!!?"
 	\speak{Kyle} \direct{Open his eyes}
 	\speak{Kyle} \textit{"I have control over the core, there's nothing more you can do."}\\
 	
-	\textbf{The whole Giant Chasm begins to tremble. In a few moments, hundreds of branches emerge from the ground, trapping Elby and \#010.}\\
+	\textbf{The whole Giant Chasm begins to tremble. In a few moments, hundreds of vines emerge from the ground, trapping Elby and \#010.}\\
 	
 	\speak{Kyle} \textit{"If you do not want to follow the same fate as \refer{\#005} do not resist and open the portal"}\\
 	
