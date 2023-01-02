@@ -1,0 +1,46 @@
+\section{File Naming Conventions}
+The purpose of having a convention for file names is to keep the file order constant. Below the general rules to be respected:
+\begin{itemize}
+	\item Every file name must respect the format "\textbf{fileType\_chapter\_description(\_size\_number)}". The number should be reported in files that have the same description but different contents. Keep care to write every point following the camel case rule. Write the \textit{size} in the files where you should specify it (e.g. vector images) according to the rule widhtxheight (e.g. 1280x720). Below the rules to follow for the fileType:
+	
+	\begin{center}
+		\begin{tabular}[c]{| p{4cm} | p{4cm} |}
+			\hline
+			\textbf{File} & \textbf{fileType}\\
+			\hline
+			Images & img\\
+			\hline
+			Vector Images & vimg\\
+			\hline
+			Photoshop project & ps \\
+			\hline
+			3D model & 3d\\
+			\hline
+			Sounds & au\\
+			\hline
+			Text note & txt\\
+			\hline
+			Videos & vid\\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\item Do not use spaces. Some software will not recognize file names with spaces, and file names with spaces must be enclosed in quotes when using the command line. For this reason never insert a space character ("\ ") but instead insert an underscore ("\_").
+	\item Special characters such as \textasciitilde\ ! @ \# \$ \% \textasciicircum\ \& * ( ) ` ; < > ? , [ ] \{ \} ' " and | should be avoided.
+	\item When using a sequential numbering system, using leading zeros for clarity and to make sure files sort in sequential order. For example, use "001, 002, ...010, etc." instead of "1, 2, ...10, etc.".
+	\item Try to use 30 or fewer characters whenever possible.
+	\item 
+\end{itemize}
+
+\subsection{Image Example}
+\texttt{img\_worldDiagram\_graph\_700x1000.png}
+
+\subsection{Image Editing Example}
+\texttt{ps\_character\_elbyCircumplex\_720x720.ps}
+
+\subsection{Sound Example}
+\texttt{au\_giantChasm\_ambientSound\_03.mp3}
+
+\subsection{3D Asset Example}
+\texttt{3d\_giantChasm\_map\_010.mp3}
+

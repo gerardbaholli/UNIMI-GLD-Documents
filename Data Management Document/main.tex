@@ -1,0 +1,30 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\geometry{a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{dirtree}
+\usepackage{hyperref}
+\hypersetup{
+	unicode=true,
+	pdfborder={0 0 0},
+	breaklinks=true
+}
+
+\renewcommand*\contentsname{Summary}
+
+\begin{document}
+
+\include{frontespizio}
+
+\include{revision_history}
+
+\tableofcontents
+
+\include{software_list}
+\include{data_types_format}
+\include{data_storage_access}
+\include{directory_structure}
+\include{file_naming_conventions}
+
+\end{document}
